@@ -3,14 +3,14 @@ package com.aula.ProjetoSenai.Controller;
 import com.aula.ProjetoSenai.Model.Aluno;
 import com.aula.ProjetoSenai.Service.AlunoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping("/alunos")
-
 public class AlunoController {
 
     @Autowired
